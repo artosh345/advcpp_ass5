@@ -5,10 +5,11 @@
 #ifndef UNTITLED3_ENVIRONMENT_H
 #define UNTITLED3_ENVIRONMENT_H
 #include <iostream>
+
 using namespace std;
 
 class Environment {
-private:
+public:
     char desk[3][3];
     int step=0;
 public:

@@ -3,4 +3,4 @@ project(untitled3)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled3 main.cpp Environment.cpp Environment.h Player.cpp Player.h)
+add_executable(untitled3 main.cpp Environment.cpp Environment.h Bot.cpp Bot.h)

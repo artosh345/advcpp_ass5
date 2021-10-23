@@ -57,12 +57,7 @@ int Environment::Check() {
                 (desk[1][1]==desk[2][0]&&desk[2][0]  ==desk[0][2]&&desk[0][2]!='_')
 
             ){
-        if(step%2==0){
-            cout<<"player 2 wins!!!";
-        }
-        else{
-            cout<<"player 1 wins!!!";
-        }
+
         return 0;
     }
     return 1;
